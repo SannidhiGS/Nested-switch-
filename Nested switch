@@ -1,0 +1,26 @@
+<?php
+$grade = "A";
+$subject = "Math";
+
+switch ($grade) {
+    case "A":
+        switch ($subject) {
+            case "Math":
+                echo "Great job on getting an A in Math!";
+                break;
+            case "English":
+                echo "Awesome work on getting an A in English!";
+                break;
+            default:
+                echo "Congratulations on your A!";
+                break;
+        }
+        break;
+    case "B":
+        echo "Nice job on getting a B!";
+        break;
+    default:
+        echo "Keep up the good work!";
+        break;
+}
+?>
